@@ -1,6 +1,7 @@
 package guru.springframework.sfgpetclinic.model;
 
 import guru.springframework.sfgpetclinic.ModelTests;
+import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -27,5 +28,10 @@ class OwnerTest implements ModelTests {
 
         //using Hamcrest
         assertThat(owner.getCity(), is("São Paulo"));
+    }
+
+    @RepeatedTest(2)
+    void name() {
+
     }
 }
