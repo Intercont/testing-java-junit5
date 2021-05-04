@@ -1,3 +1,6 @@
+Pipeline Master Build Status: [![CircleCI](https://circleci.com/gh/Intercont/testing-java-junit5/tree/master.svg?style=svg)](https://app.circleci.com/pipelines/github/Intercont/testing-java-junit5)
+
+
 # Introduction to JUnit 5 with Maven
 
 All source code examples in the repository are for my [Online Course - Testing Spring Beginner to Guru](https://www.udemy.com/testing-spring-boot-beginner-to-guru/?couponCode=GITHUB_REPO)
